@@ -3,6 +3,7 @@
 
 # In[ ]:
 
+
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Flatten
@@ -133,6 +134,22 @@ accuracy = scores[1]
 if accuracy > 0.9
 	model.save("model_t2_1.h5")
 	exit()
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:if 
+
 
 f = open("accuracy.txt","r")
 prev_accuracy = int(f.read())
